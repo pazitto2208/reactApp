@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+    padding: 1em;
+    width: 100%;
+}
+
+.logo,
+.links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    margin: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.item:hover{
+    color: rgb(90, 207, 168);
+}

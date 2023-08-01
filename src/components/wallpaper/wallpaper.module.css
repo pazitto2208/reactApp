@@ -1,0 +1,33 @@
+.wallpaperContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpaperContainer img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.wallpaperContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.wallpaperContent h1 {
+    font-size: 2.5em;
+    margin: 0.5em;
+}
+
+.wallpaperContent h1 span {
+    background-color: rgb(255, 255, 255);
+    color: rgb(71, 46, 158) ;
+    padding: 0 0.1em;
+}
+
+
+
