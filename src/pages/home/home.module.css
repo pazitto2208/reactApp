@@ -8,10 +8,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: large;
     width: 100%;
     max-width: 1200px;
-    padding: 2em;
-    margin: auto;
-    background-color: rgb(255, 0, 0);
+    padding: 1em;
+    margin: 2em auto ;
 }
 
