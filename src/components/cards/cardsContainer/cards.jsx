@@ -14,7 +14,7 @@ function Cards () {
             img: 'https://www.worktogether.it/Newsdoc/News540/il-potere-del-time-budget.jpg'
         },
         {
-            title: 'Backup e sincronizzazione',
+            title: 'Sincronizzazione',
             desc: 'Mantieni i tuoi dati al sicuro con il backup automatico e la sincronizzazione su cloud. Puoi accedere ai tuoi progetti ovunque ti trovi',
             img: 'https://www.penso.com.br/wp-content/uploads/2013/06/cloud-backup.png'
         }

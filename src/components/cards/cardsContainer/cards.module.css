@@ -5,3 +5,11 @@
 }
 
 
+@media screen and (max-width: 1080px) {
+    .cardsContainer {
+        justify-content: flex-start;
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
+
