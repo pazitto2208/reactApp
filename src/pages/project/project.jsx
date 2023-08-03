@@ -15,7 +15,7 @@ function Project() {
     const location = useLocation()
     useEffect(() => {
         setProject(location.state)        
-    }, [])
+    }, [location.state])
 
     let url = `http://localhost:5000/projects/${id}`
     function editPost (projectToBeUpdated) {
