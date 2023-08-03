@@ -1,0 +1,60 @@
+.projectContainer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-self: baseline;
+    min-height: 100%;
+    margin: 2em;
+}
+
+.projectContainer h1 {
+    font-size: 2.5em;
+}
+
+.titleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(71, 46, 158);
+    color: #fff;
+    padding: 1em;
+}
+
+.projectDetails {
+    margin: 0 2em;
+    text-align: start;
+}
+
+.projectDetails span {
+    font-weight: bold;
+    color: rgb(71, 46, 158);
+}
+
+.projectDetails h1,
+.projectDetails h2,
+.projectDetails p {
+    margin: 1em;
+}
+
+.detailsContainer {
+    border-bottom: 1px solid;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 1em;
+    transition: 0.5s;
+    height: 4em;
+    width: 10em;
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: rgb(255, 255, 255) ;
+}
