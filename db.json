@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "name": "prova",
+      "budget": "16161",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "service": [],
+      "id": 1
+    },
+    {
+      "name": "teste",
+      "budget": "2216",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "service": [],
+      "id": 3
+    },
+    {
+      "name": "mio progetto",
+      "budget": "166100",
+      "category": {
+        "id": "2",
+        "name": "Sviluppo"
+      },
+      "cost": 0,
+      "service": [],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Sviluppo"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Pianificazione"
+    }
+  ]
+}

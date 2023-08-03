@@ -11,5 +11,14 @@
         width: 100%;
         overflow-x: scroll;
     }
+
+    .cardsContainer::-webkit-scrollbar {
+        height: 10px;
+    }
+
+    .cardsContainer::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.37);
+        border-radius: 20px;
+    }
 }
 

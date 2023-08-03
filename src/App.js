@@ -6,6 +6,9 @@ import Navbar from './components/navbar/navbar'
 import Footer from './components/footer/footer'
 
 import Home from './pages/home/home';
+import Projects from './pages/projects/projects';
+import Project from './pages/project/project';
+import NewProject from './pages/newProject/newProject';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <div className='contentContainer'>
         <Routes>
           <Route exact path='/' element={<Home />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/newproject' element={<NewProject />} />
+          <Route path='/project/:id' element={<Project />} />
         </Routes>
       </div>
       <div className='footerContainer'>

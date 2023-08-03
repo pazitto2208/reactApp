@@ -1,5 +1,6 @@
 import Wallpaper from '../../components/wallpaper/wallpaper'
 import Cards from '../../components/cards/cardsContainer/cards'
+import LinkButton from '../../layout/linkButton/linkButton'
 import styles from './home.module.css'
 
 function Home() {
@@ -40,15 +41,15 @@ function Home() {
                     />
                 </div>
                 <div className={styles.cards}>
-                    <h1>La tua soluzione completa per gestire i progetti personali in modo semplice e intelligente</h1>
+                    <h1>Gestisci i tuoi progetti personali in modo semplice e intelligente</h1>
                     <p>
                         Costs è un'applicazione innovativa e versatile progettata per aiutarti a tenere traccia di tutte le 
                         tue attività, pianificare le tue spese e raggiungere i tuoi obiettivi finanziari con facilità. 
                         Che tu stia pianificando una ristrutturazione domestica, un viaggio indimenticabile o un progetto 
-                        creativo, Costs ti offre le funzionalità essenziali per mantenere tutto sotto controllo e raggiungere 
-                        il successo
+                        creativo, con Costs e' tutto piu' facile 
                     </p>
                     <Cards />
+                    <LinkButton to='/newproject' text='Nuovo Progetto' />
                 </div>
             </div>
         </div>

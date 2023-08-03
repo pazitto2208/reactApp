@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 import styles from './navbar.module.css'
 
-function Navbar () {
+function Navbar ( { pageNavbarColor } ) {
     return (
-        <nav className={styles.navbar}>
+        <nav className={`${styles.navbar} ${[pageNavbarColor]}`}>
             <div className={styles.logo}>
                 <Link to='/' className={styles.item}>myLogo</Link>
             </div>

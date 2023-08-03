@@ -1,0 +1,16 @@
+.newProjectContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 3em;
+}
+
+.newProjectContainer h1 {
+    font-size: 2.5em;
+    margin: 0.5em;
+}
+
+.newProjectContainer p { 
+    margin: 0.5em;
+}
