@@ -64,6 +64,7 @@ function Projects() {
                         budget={project.budget}
                         category={project.category}
                         key={project.id}
+                        project={project}
                         handleRemove={deleteProject} // passo la funzione e dopo assegno al button
                     />
                 ))}

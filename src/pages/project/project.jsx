@@ -2,6 +2,7 @@ import styles from './project.module.css'
 
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom';
 
 import ProjectForm from '../../components/projectForm/projectForm'
 
@@ -10,6 +11,12 @@ function Project() {
 
     const [project, setProject] = useState([])
     const [showProjectForm, setShowProjectForm] = useState(false)
+
+    const location = useLocation();
+
+    const projectFromParent = location?.project
+
+    console.log(projectFromParent)
 
     let url = `http://localhost:5000/projects/${id}`
     useEffect(() => {
