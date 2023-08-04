@@ -21,18 +21,6 @@ function Home() {
                     o un progetto creativo, Costs ti offre le funzionalità essenziali per mantenere tutto sotto controllo 
                     e raggiungere il successo.
                 </p>
-                {/* <div className={styles.contentSection}>
-                    <img src="https://images.pexels.com/photos/4603884/pexels-photo-4603884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
-                    <div>
-                        <h2>La tua soluzione completa per gestire i progetti personali in modo semplice e intelligente!</h2>
-                        <p className={styles.contentContainer}>
-                            Creare i tuoi progetti è semplice e veloce: basta assegnare un titolo accattivante e una descrizione 
-                            dettagliata per avere una visione chiara e completa di ciò che desideri realizzare. Organizza i tuoi 
-                            progetti in categorie personalizzate, come "Casa", "Viaggi", "Hobby" o qualsiasi altra categoria che 
-                            rifletta il tuo stile di vita e le tue passioni.
-                        </p>
-                    </div>
-                </div> */}
             </div>
             <div className={styles.cardsSection}>
                 <div className={styles.wallpaper}>

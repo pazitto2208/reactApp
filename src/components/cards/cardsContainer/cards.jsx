@@ -21,15 +21,20 @@ function Cards () {
     ]
 
     return (
-        <div className={styles.cardsContainer}>
-            {cards.length > 0 && cards.map((card) => (
-                <Card
-                    title = {card.title}
-                    desc = {card.desc}
-                    img = {card.img} 
-                />
-            ))}
-        </div>
+        <>
+            <div className={styles.cardsContainer}>
+                {/* !!! KEY is IMPORTANT */}
+                {cards.length > 0 && cards.map((card, index) => (
+                    <Card
+                        key={index}
+                        title = {card.title}
+                        desc = {card.desc}
+                        img = {card.img} 
+                    />
+                ))}
+            </div>
+        </>
+
     )
 }
 

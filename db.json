@@ -1,22 +1,35 @@
 {
   "projects": [
     {
-      "name": "prova",
-      "budget": "16161",
+      "name": "22 prova",
+      "budget": "2208",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Sviluppo"
       },
-      "cost": 0,
-      "service": [],
+      "cost": 48,
+      "service": [
+        {
+          "name": "prova 2",
+          "cost": "22",
+          "desc": "test",
+          "id": "daad45a0-d93e-4906-a84d-a8da21930e48"
+        },
+        {
+          "name": "prova 3",
+          "cost": "26",
+          "desc": "test 2",
+          "id": "57f76549-df7f-4b8a-94fd-a5d7b39dac4f"
+        }
+      ],
       "id": 1
     },
     {
       "name": "teste",
       "budget": "2216",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "4",
+        "name": "Pianificazione"
       },
       "cost": 0,
       "service": [],
@@ -24,10 +37,10 @@
     },
     {
       "name": "mio progetto",
-      "budget": "166100",
+      "budget": "082216",
       "category": {
-        "id": "2",
-        "name": "Sviluppo"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "service": [],

@@ -3,6 +3,7 @@
     text-align: center;
     flex-direction: column;
     justify-self: baseline;
+    padding-top: 60px;
     min-height: 100%;
     margin: 2em;
 }
@@ -51,10 +52,32 @@
     padding: 1em;
     transition: 0.5s;
     height: 4em;
-    width: 10em;
+    width: fit-content;
 }
 
 .btn:hover {
     color: #000000;
     background-color: rgb(255, 255, 255) ;
+}
+
+
+.headerService {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.servicesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.serviceCards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
 }
